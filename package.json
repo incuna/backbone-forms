@@ -1,6 +1,6 @@
 {
-  "name": "backbone-forms",
-  "description": "Form framework for BackboneJS with nested forms, editable lists and validation",
+  "name": "backbone-forms-zepto",
+  "description": "Form framework for BackboneJS with nested forms, editable lists and validation. Packaged for jamjs with zepto dependency",
   "author": {
     "name": "Charles Davison"
   },
@@ -13,5 +13,13 @@
     "underscore": "latest",
     "uglify-js": "latest"
   },
-  "main": "src/backbone-forms.js"
+  "main": "src/backbone-forms.js",
+  "jam": {
+    "dependencies": {
+      "backbone-zepto": ">=0.9.2",
+      "zepto": "*"
+    },
+    "main": "distribution/backbone-forms.amd.js",
+    "include": ["distribution"]
+  }
 }
