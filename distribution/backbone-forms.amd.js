@@ -10,7 +10,7 @@
  * License and more information at:
  * http://github.com/powmedia/backbone-forms
  */
-define(['zepto', 'underscore', 'backbone-zepto'], function($, _, Backbone) {
+define(['zepto', 'lodash', 'backbone-zepto'], function($, _, Backbone) {
 
   
 //==================================================================================================
